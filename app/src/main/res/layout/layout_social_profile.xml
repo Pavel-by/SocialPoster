@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- Profile info -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|start">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/profileIconSize"
+            android:layout_height="@dimen/profileIconSize"
+            android:id="@+id/profileIcon"
+            style="@style/ProfileIcon"
+            android:layout_weight="0"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textValue"
+                style="@style/TextValue"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textHint"
+                style="@style/TextHint"/>
+        </LinearLayout>
+    </LinearLayout>
+    <CheckedTextView
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выйти"
+        style="@style/SingleTextView"/>
+</LinearLayout>

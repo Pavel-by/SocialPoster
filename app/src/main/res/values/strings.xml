@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SocialPoster</string>
+    <integer name="com_vk_sdk_AppId">6728715</integer>
+
+    <string name="facebook_app_id">350168015749942</string>
+    <string name="fb_login_protocol_scheme">fb350168015749942</string>
+
+    <string name="enter_post_text">Введите текст для поста</string>
+</resources>

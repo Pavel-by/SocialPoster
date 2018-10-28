@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SocialIcon">
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/socialIconPadding</item>
+        <item name="android:layout_margin">@dimen/socialIconMargin</item>
+    </style>
+
+    <style name="ProfileIcon">
+        <item name="android:padding">@dimen/profileIconPadding</item>
+        <item name="android:layout_margin">@dimen/profileIconMargin</item>
+    </style>
+
+    <style name="CircleListIcon">
+        <item name="android:padding">@dimen/circleListIconPadding</item>
+        <item name="android:layout_margin">@dimen/circleListIconMargin</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:layout_margin">@dimen/editTextMargin</item>
+        <item name="android:background">@drawable/text_field_background</item>
+    </style>
+
+    <style name="Button" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_margin">@dimen/buttonMargin</item>
+        <item name="android:padding">@dimen/buttonPadding</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="Button">
+        <item name="android:background">@drawable/button_primary_background</item>
+        <item name="android:textColor">@color/buttonPrimaryTextColor</item>
+    </style>
+    
+    <style name="TextValue">
+        <item name="android:layout_margin">@dimen/textValueMargin</item>
+        <item name="android:padding">@dimen/textValuePadding</item>
+        <item name="android:textSize">@dimen/textValueSize</item>
+        <item name="android:textColor">@color/textValueColor</item>
+    </style>
+
+    <style name="TextHint">
+        <item name="android:padding">@dimen/textHintPadding</item>
+        <item name="android:layout_marginBottom">@dimen/textHintMarginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/textHintMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/textHintMarginRight</item>
+        <item name="android:layout_marginTop">@dimen/textHintMarginTop</item>
+        <item name="android:textSize">@dimen/textHintSize</item>
+        <item name="android:textColor">@color/textHintColor</item>
+    </style>
+
+    <style name="SingleTextView">
+        <item name="android:paddingLeft">@dimen/singleTextViewPaddingLeft</item>
+        <item name="android:paddingRight">@dimen/singleTextViewPaddingRight</item>
+        <item name="android:paddingTop">@dimen/singleTextViewPaddingTop</item>
+        <item name="android:paddingBottom">@dimen/singleTextViewPaddingBottom</item>
+        <item name="android:layout_margin">@dimen/singleTextViewMargin</item>
+        <item name="android:textSize">@dimen/singleTextViewTextSize</item>
+        <item name="android:textColor">@color/singleTextViewTextColor</item>
+        <item name="android:background">@drawable/list_item_background</item>
+    </style>
+</resources>

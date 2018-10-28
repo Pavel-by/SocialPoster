@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Social circle icons -->
+    <dimen name="socialIconPadding">8dp</dimen>
+    <dimen name="socialIconMargin">16dp</dimen>
+    <dimen name="socialIconBorderWidth">1dp</dimen>
+    <color name="socialIconBorderColor">#AAA</color>
+    <dimen name="socialIconHeight">70dp</dimen>
+    <color name="socialIconBorderColorActive">#0f2da3</color>
+    <color name="socialIconBorderColorInactive">#9c9fae</color>
+
+    <dimen name="profileIconSize">64dp</dimen>
+    <dimen name="profileIconMargin">8dp</dimen>
+    <dimen name="profileIconPadding">8dp</dimen>
+
+    <dimen name="circleListIconSize">64dp</dimen>
+    <dimen name="circleListIconMargin">0dp</dimen>
+    <dimen name="circleListIconPadding">8dp</dimen>
+
+    <!-- EditText -->
+    <dimen name="editTextPadding">8dp</dimen>
+    <dimen name="editTextMargin">16dp</dimen>
+    <dimen name="editTextBorderWidth">1dp</dimen>
+    <color name="editTextBorderColor">#83bfed</color>
+    <dimen name="editTextMultilineHeight">200dp</dimen>
+
+    <!-- Buttons -->
+    <dimen name="buttonMargin">16dp</dimen>
+    <dimen name="buttonPadding">16dp</dimen>
+    <!-- button primary -->
+    <color name="buttonPrimaryGradientStart">#5e9fdc</color>
+    <color name="buttonPrimaryGradientEnd">#3f85c7</color>
+    <color name="buttonPrimaryTextColor">#fff</color>
+    <color name="buttonPrimaryPressedGradientStart">#4a90d1</color>
+    <color name="buttonPrimaryPressedGradientEnd">#3073b3</color>
+
+    <!-- TextView -->
+    <!-- Основной текст в списке элементов - контактов -->
+    <dimen name="textValueMargin">0dp</dimen>
+    <dimen name="textValuePadding">0dp</dimen>
+    <color name="textValueColor">#131313</color>
+    <dimen name="textValueSize">15sp</dimen>
+    <!-- Вспомогательный текст в списке элементов - контактов -->
+    <dimen name="textHintMarginTop">4dp</dimen>
+    <dimen name="textHintMarginLeft">0dp</dimen>
+    <dimen name="textHintMarginBottom">0dp</dimen>
+    <dimen name="textHintMarginRight">0dp</dimen>
+    <dimen name="textHintPadding">0dp</dimen>
+    <color name="textHintColor">#131313</color>
+    <dimen name="textHintSize">13sp</dimen>
+    <!-- Одиночный элемент списка -->
+    <dimen name="singleTextViewMargin">0dp</dimen>
+    <dimen name="singleTextViewPaddingTop">16dp</dimen>
+    <dimen name="singleTextViewPaddingBottom">16dp</dimen>
+    <dimen name="singleTextViewPaddingRight">32dp</dimen>
+    <dimen name="singleTextViewPaddingLeft">32dp</dimen>
+    <dimen name="singleTextViewTextSize">15sp</dimen>
+    <color name="singleTextViewTextColor">#000</color>
+</resources>
