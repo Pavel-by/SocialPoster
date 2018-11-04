@@ -1,4 +1,4 @@
-package com.mairon.socialposter;
+package com.mairon.socialposter.data;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

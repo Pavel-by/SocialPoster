@@ -11,6 +11,7 @@ import org.json.JSONObject;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.ToString;
 
 public interface SocialController {
 
@@ -27,6 +28,7 @@ public interface SocialController {
 
     @Data
     @AllArgsConstructor
+    @ToString
     class Error {
         private int code;
         private String message;

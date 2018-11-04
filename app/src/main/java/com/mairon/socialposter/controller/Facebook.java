@@ -45,7 +45,6 @@ public class Facebook implements SocialController {
 
     private CallbackManager    callbackManager;
     private Collection<String> permissions   = Arrays.asList(
-        "manage_pages",
         "publish_pages"
     );
     private Activity           activity;

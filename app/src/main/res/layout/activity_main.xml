@@ -55,26 +55,6 @@
                     android:layout_gravity="center"
                     android:visibility="gone"/>
             </FrameLayout>
-            <FrameLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/socialIconTwitter"
-                    style="@style/SocialIcon"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/socialIconHeight"
-                    android:src="@drawable/twitter_icon"
-                    app:civ_border_color="@color/socialIconBorderColor"
-                    app:civ_border_width="@dimen/socialIconBorderWidth" />
-                <ProgressBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/progressBarTwitter"
-                    android:indeterminate="true"
-                    android:layout_gravity="center"
-                    android:visibility="gone"/>
-            </FrameLayout>
         </LinearLayout>
 
         <!-- Message -->
@@ -87,7 +67,11 @@
             android:gravity="top|start"
             android:hint="@string/enter_post_text"
             android:inputType="textMultiLine" />
-
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/recyclerSelectedImages"/>
         <Button
             android:id="@+id/buttonSend"
             style="@style/ButtonPrimary"

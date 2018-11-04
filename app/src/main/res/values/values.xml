@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Social circle icons -->
+    <!-- Social circle icons && imageViews -->
     <dimen name="socialIconPadding">8dp</dimen>
     <dimen name="socialIconMargin">16dp</dimen>
     <dimen name="socialIconBorderWidth">1dp</dimen>
@@ -16,6 +16,15 @@
     <dimen name="circleListIconSize">64dp</dimen>
     <dimen name="circleListIconMargin">0dp</dimen>
     <dimen name="circleListIconPadding">8dp</dimen>
+
+    <dimen name="circleIconActionBarSize">40dp</dimen>
+
+    <dimen name="circleListActionIconSize">50dp</dimen>
+    <dimen name="circleListActionIconPadding">10dp</dimen>
+
+    <!-- Картинки в списке выбранных для загрузки изображений -->
+    <dimen name="selectedImageViewSize">48dp</dimen>
+    <dimen name="selectedImageViewMargin">4dp</dimen>
 
     <!-- EditText -->
     <dimen name="editTextPadding">8dp</dimen>
